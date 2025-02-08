@@ -7,10 +7,10 @@ database:'level4'
 })
 db.connect((err)=>{
 if (err) {
-     console.log('Connection failed')
+     document.write('Connection failed')
 }
 else{
-     console.log('connection Sucessfully')
+     document.write('connection Sucessfully')
 }
 })
 export default db;
